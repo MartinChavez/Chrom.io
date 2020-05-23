@@ -1,236 +1,320 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Chrom.io</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
-        <!-- Fonts -->
-        <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
-        <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
-        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
-        <!-- Slider -->
-        <link rel="stylesheet" href="assets/styles/vendor/slick.css">
-        <!-- Lightbox -->
-        <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
-        <!-- Animate.css -->
-        <link rel="stylesheet" href="assets/styles/vendor/animate.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chrom.io</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css" />
+    <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome/css/font-awesome.min.css"
+    />
+    <!-- Slider -->
+    <link rel="stylesheet" href="assets/styles/vendor/slick.css" />
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/styles/vendor/animate.css" />
 
-        <!-- Definity CSS -->
-        <link rel="stylesheet" href="assets/styles/main.css">
-        <link rel="stylesheet" href="assets/styles/responsive.css">
+    <!-- Definity CSS -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
 
-        <!-- JS -->
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar">
-        
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <!-- JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
 
+    <!-- ========== Preloader ========== -->
 
-        <!-- ========== Preloader ========== -->
+    <div class="preloader">
+      <img src="assets/images/loader.svg" alt="Loading..." />
+    </div>
 
-        <div class="preloader">
-          <img src="assets/images/loader.svg" alt="Loading...">
+    <!-- ========== Navigation ========== -->
+
+    <nav
+      class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-trans navbar-trans-dark trans-helper navbar-fw"
+      role="navigation"
+    >
+      <div class="navbar-header page-scroll">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="navbar-logo-dark"
+            src="assets/images/logo-light.png"
+            alt="Definity - Logo"
+        /></a>
+      </div>
+
+      <!-- Navbar Links -->
+      <div
+        id="navbar"
+        class="navbar-collapse collapse page-scroll navbar-right"
+      >
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#home">Home<span class="sr-only"></span></a>
+          </li>
+          <li>
+            <a href="#download">Download<span class="sr-only"></span></a>
+          </li>
+          <li>
+            <a href="#features">Features<span class="sr-only"></span></a>
+          </li>
+        </ul>
+        <!-- / .nav .navbar-nav -->
+      </div>
+      <!--/.navbar-collapse -->
+    </nav>
+    <!-- / .navbar -->
+
+    <!-- ========== Hero Cover ========== -->
+
+    <div id="home" class="container app-hero">
+      <div class="row">
+        <!-- Text -->
+        <div class="col-lg-6 col-md-12 hero-text">
+          <h1 class="hero-lead wow fadeInUp" data-wow-duration="1.7s">
+            Chrom.io
+          </h1>
+          <p>The app to convert from SNP to Chromosome Position</p>
+          <a
+            href="https://itunes.apple.com/us/app/chrom-io/id1296618662"
+            class="btn wow fadeInUp"
+            data-wow-duration="2s"
+            data-wow-delay="1s"
+            target="_blank"
+            >Get it now</a
+          >
+          <a
+            href="#download"
+            class="btn btn-light wow fadeInUp"
+            data-wow-duration="2s"
+            data-wow-delay="1s"
+            >Learn More</a
+          >
         </div>
+        <!-- / .col-lg-6 -->
 
+        <!-- Image -->
+        <div class="col-lg-6 col-md-12 hero-img-container">
+          <img
+            src="assets/images/iPhone X.png"
+            alt="Chrom.io"
+            class="img-responsive"
+          />
+        </div>
+        <!-- / .col-lg-6 -->
+      </div>
+      <!-- / .row -->
 
+      <!-- Scroller -->
+      <a href="#download" class="scroller scroller-dark">
+        <span class="scroller-text">scroll down</span>
+        <span class="linea-basic-magic-mouse"></span>
+      </a>
+    </div>
+    <!-- / .app-hero -->
 
-        <!-- ========== Navigation ========== -->
+    <!-- ========== App Download ========== -->
 
-        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-trans navbar-trans-dark trans-helper navbar-fw" role="navigation">
-          <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html"><img class="navbar-logo-dark" src="assets/images/logo-light.png" alt="Definity - Logo"></a>
+    <div id="download" class="gray-bg">
+      <section class="container app-welcome">
+        <div class="row text-center">
+          <!-- App Icon -->
+          <div class="ws-l"></div>
+          <img
+            src="assets/images/app-icon.png"
+            alt="Definity - HTML5 Template"
+            class="wow fadeInUp"
+            data-wow-duration=".7s"
+          />
+
+          <header
+            class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s"
+          >
+            <h2>Welcome to Chrom.io</h2>
+            <span class="subheading"
+              >Chrom.io allows you to enter a rsId such as rs12979860 and it
+              will output: "Chromosome 19, Position 39248147" in a modern and
+              easy to use interface..</span
+            >
+          </header>
+        </div>
+        <!-- / .row -->
+
+        <div class="row ws-m download-btns">
+          <!-- App Store -->
+          <div class="col-md-2 col-md-offset-5 text-right dl-btn">
+            <a
+              href="https://itunes.apple.com/us/app/chrom-io/id1296618662"
+              target="_blank"
+              ><img src="assets/images/app-store.png" alt="App Store"
+            /></a>
           </div>
+        </div>
+        <!-- / .row -->
+      </section>
+      <!-- / .container -->
+    </div>
+    <!-- / .gray-bg -->
 
-          <!-- Navbar Links -->
-          <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
-            <ul class="nav navbar-nav">
-              <li><a href="#home">Home<span class="sr-only"></span></a></li>
-              <li><a href="#download">Download<span class="sr-only"></span></a></li>
-              <li><a href="#features">Features<span class="sr-only"></span></a></li>
-            </ul><!-- / .nav .navbar-nav -->              
-          </div><!--/.navbar-collapse -->
-        </nav><!-- / .navbar -->
+    <!-- ========== Features Icons + Image ========== -->
 
+    <div id="features" class="dark-bg">
+      <div class="container">
+        <div class="row">
+          <div class="ws-m"></div>
+          <!-- Features -->
+          <div class="col-lg-offset-1 col-lg-4 ft-x ws-m">
+            <!-- Item 1 -->
+            <div
+              class="col-md-12 no-gap mb-sm-100 ft-item ft-basic wow fadeIn"
+              data-wow-duration="1s"
+            >
+              <span class="ft-icon-white et-layers"></span>
+              <h5>Modern UI</h5>
+              <p>
+                Optimized for iOS 11 and Super Retina display, the app runs
+                smoothly and beautifully on recent iPads and iPhones.
+              </p>
+            </div>
+            <!-- / .ft-item -->
 
+            <!-- Item 2 -->
+            <div
+              class="col-md-12 no-gap mb-sm-100 ft-item ft-basic wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+            >
+              <span class="ft-icon-white et-speedometer"></span>
+              <h5>Fast</h5>
+              <p>
+                Browse through hundreds of SNP's and get concrete results
+                instantly.
+              </p>
+            </div>
+            <!-- / .ft-item -->
 
-        <!-- ========== Hero Cover ========== -->
+            <!-- Item 3 -->
+            <div
+              class="col-md-12 no-gap ft-item ft-basic wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay=".4s"
+            >
+              <span class="ft-icon-white et-global"></span>
+              <h5>Offline-First</h5>
+              <p>
+                This app requires no internet connection. Making it available
+                when you need it.
+              </p>
+            </div>
+            <!-- / .ft-item -->
+          </div>
+          <!-- / .col-md-4 -->
 
-        <div id="home" class="container app-hero"> 
+          <!-- Image -->
+          <div class="col-md-offset-2 col-md-5">
+            <img
+              src="assets/images/result-iPhone-X.png"
+              alt="Chrom.io"
+              class="wow fadeInUp ft-image"
+              data-wow-duration="1s"
+            />
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </div>
+    <!-- / .dark-bg -->
+
+    <!-- ========== Footer Litle ========== -->
+
+    <footer class="footer-litle">
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
           <div class="row">
-            
-            <!-- Text -->
-            <div class="col-lg-6 col-md-12 hero-text">
-              <h1 class="hero-lead wow fadeInUp" data-wow-duration="1.7s">Chrom.io</h1>
-              <p>The app to convert from SNP to Chromosome Position</p>
-              <a href="https://itunes.apple.com/us/app/chrom-io/id1296618662" class="btn wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" target="_blank">Get it now</a>
-              <a href="#download" class="btn btn-light wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">Learn More</a>
-            </div><!-- / .col-lg-6 -->
+            <div class="col-md-6">
+              <small
+                >&copy; 2020 Chrom.io. Made by
+                <a
+                  class="no-style-link"
+                  href="http://martinchavezaguilar.com"
+                  target="_blank"
+                  >Martin</a
+                ></small
+              >
+            </div>
 
-            <!-- Image -->
-            <div class="col-lg-6 col-md-12 hero-img-container">
-              <img src="assets/images/iPhone X.png" alt="Chrom.io" class="img-responsive">
-            </div><!-- / .col-lg-6 -->
-          </div><!-- / .row -->
+            <div class="col-md-6">
+              <small
+                ><a href="#page-top" class="pull-right to-the-top"
+                  >To the top<i class="fa fa-angle-up"></i></a
+              ></small>
+            </div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+      </div>
+      <!-- / .copyright -->
+    </footer>
+    <!-- / .footer-litle -->
 
-          <!-- Scroller -->
-          <a href="#download" class="scroller scroller-dark">
-            <span class="scroller-text">scroll down</span>
-            <span class="linea-basic-magic-mouse"></span>
-          </a>
+    <!-- ========== Scripts ========== -->
 
-        </div><!-- / .app-hero -->
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/vendor/google-fonts.js"></script>
+    <script src="assets/js/vendor/jquery.easing.js"></script>
+    <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
+    <script src="assets/js/vendor/smoothscroll.js"></script>
+    <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
+    <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/vendor/jquery.stellar.min.js"></script>
+    <script src="assets/js/vendor/jquery.parallax.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/vendor/countup.min.js"></script>
+    <script src="assets/js/vendor/isotope.min.js"></script>
+    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
 
-
-
-        <!-- ========== App Download ========== -->
-
-        <div id="download" class="gray-bg">
-          <section class="container app-welcome">
-            <div class="row text-center">
-              
-              <!-- App Icon -->
-              <div class="ws-l"></div>
-              <img src="assets/images/app-icon.png" alt="Definity - HTML5 Template" class="wow fadeInUp" data-wow-duration=".7s">
-              
-              <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
-                <h2>Welcome to Chrom.io</h2>
-                <span class="subheading">Chrom.io allows you to enter a rsId such as rs12979860 and it will output: "Chromosome 19, Position 39248147" in a modern and easy to use interface..</span>
-              </header>
-
-            </div><!-- / .row -->
-            
-            <div class="row ws-m download-btns">
-              <!-- App Store -->
-              <div class="col-md-2 col-md-offset-5 text-right dl-btn">
-                <a href="https://itunes.apple.com/us/app/chrom-io/id1296618662" target="_blank"><img src="assets/images/app-store.png" alt="App Store"></a>
-              </div>
-            </div><!-- / .row -->
-
-          </section><!-- / .container -->
-        </div><!-- / .gray-bg -->
-
-
-
-        <!-- ========== Features Icons + Image ========== -->
-
-        <div id="features" class="dark-bg">
-          <div class="container">
-            <div class="row">
-              
-              <div class="ws-m"></div>
-              <!-- Features -->
-              <div class="col-lg-offset-1 col-lg-4 ft-x ws-m">
-                
-                <!-- Item 1 -->
-                <div class="col-md-12 no-gap mb-sm-100 ft-item ft-basic wow fadeIn" data-wow-duration="1s">
-                  <span class="ft-icon-white et-layers"></span>
-                  <h5>Modern UI</h5>
-                  <p>Optimized for iOS 11 and Super Retina display,  the app runs smoothly and beautifully on recent iPads and iPhones. </p>
-                </div><!-- / .ft-item -->
-
-                <!-- Item 2 -->
-                <div class="col-md-12 no-gap mb-sm-100 ft-item ft-basic wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
-                  <span class="ft-icon-white et-speedometer"></span>
-                  <h5>Fast</h5>
-                  <p>Browse through hundreds of SNP's and get concrete results instantly.</p>
-                </div><!-- / .ft-item -->
-
-                <!-- Item 3 -->
-                <div class="col-md-12 no-gap ft-item ft-basic wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
-                  <span class="ft-icon-white et-global"></span>
-                  <h5>Offline-First</h5>
-                  <p>This app requires no internet connection. Making it available when you need it.</p>
-                </div><!-- / .ft-item -->
-
-              </div><!-- / .col-md-4 -->
-              
-              <!-- Image -->
-              <div class="col-md-offset-2 col-md-5">
-                <img src="assets/images/result-iPhone-X.png" alt="Chrom.io" class="wow fadeInUp ft-image" data-wow-duration="1s">
-              </div>
-
-            </div><!-- / .row -->
-          </div><!-- / .container -->
-        </div><!-- / .dark-bg -->
-
-        <!-- ========== Footer Litle ========== -->
-
-        <footer class="footer-litle">
-
-          <!-- Social Links -->
-          <div class="dark-bg">
-            <div class="container footer-social-links">
-              <div class="row">
-                
-                <ul>
-                  <li><a href="https://www.facebook.com/TryChromio/">facebook</a></li>
-                </ul>
-
-              </div>
-            </div><!-- / .container -->
-          </div><!-- / .dark-bg -->
-
-
-          <!-- Copyright -->
-          <div class="copyright">
-            <div class="container">
-              <div class="row">
-                
-                <div class="col-md-6">
-                  <small>&copy; 2018 Chrom.io. Made by <a class="no-style-link" href="http://martinchavezaguilar.com" target="_blank">Martin</a></small>
-                </div>
-
-                <div class="col-md-6">
-                  <small><a href="#page-top" class="pull-right to-the-top">To the top<i class="fa fa-angle-up"></i></a></small>
-                </div>
-
-              </div><!-- / .row -->
-            </div><!-- / .container -->
-          </div><!-- / .copyright -->
-        </footer><!-- / .footer-litle -->
-        
-    
-
-        <!-- ========== Scripts ========== -->
-
-        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-        <script src="assets/js/vendor/google-fonts.js"></script>
-        <script src="assets/js/vendor/jquery.easing.js"></script>
-        <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
-        <script src="assets/js/vendor/smoothscroll.js"></script>
-        <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
-        <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
-        <script src="assets/js/vendor/jquery.stellar.min.js"></script>
-        <script src="assets/js/vendor/jquery.parallax.js"></script>
-        <script src="assets/js/vendor/slick.min.js"></script>
-        <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
-        <script src="assets/js/vendor/countup.min.js"></script>
-        <script src="assets/js/vendor/isotope.min.js"></script>
-        <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/vendor/wow.min.js"></script>
-        <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
-
-        <!-- Definity JS -->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- Definity JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
